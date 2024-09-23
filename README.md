@@ -1,6 +1,6 @@
 # Challenge 3 - Indústria 4.0 e Sociedade 5.0 
 
-###-Integrantes-
+### -Integrantes-
 André Bartolo Pellegrino dos Santos
 Giuliano Ferreira Venceslau
 Iury Cardoso Araujo
