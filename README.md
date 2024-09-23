@@ -8,7 +8,7 @@
       - Maria Luiza Miyazaki Braz de Paula
       - Rafael Augusto Oliveira Silva.
       
-- First nested list item
-      - Second nested list item
+      - First nested list item
+            - Second nested list item
 # Introdução
 
