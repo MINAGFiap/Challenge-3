@@ -16,6 +16,6 @@
 descreve a dor do projeto e objetivos do projeto. Podem usar o ppt da John Deere do kick-off para montar o seu Git estilizado, apresentável e o mais profissional possível
 ## -Desenvolvimento-
 ### Estrutura arquitetura e modelo de UML
-(https://ibb.co/z6780Mn)
+![](https://ibb.co/z6780Mn)
 ## -Resultados-
 descreve de forma didática/técnica o que a sua aplicação está devolvendo, usando prints de comprovação
