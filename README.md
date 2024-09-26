@@ -13,9 +13,23 @@
   - RM555154
 
 ## -Introdução-
-descreve a dor do projeto e objetivos do projeto. Podem usar o ppt da John Deere do kick-off para montar o seu Git estilizado, apresentável e o mais profissional possível
+### Objetivos do projeto
+Nosso projeto tem como objetivo principal buscar uma solução para a má otimização do reabastecimento de peças nos carros-kit da fábrida da John Deere;
+[![imagem-2024-09-26-172419359.png](https://i.postimg.cc/8PTXY5BS/imagem-2024-09-26-172419359.png)](https://postimg.cc/qgZGhp5b)
 ## -Desenvolvimento-
-### Estrutura arquitetura e modelo de UML
-![]([https://ibb.co/z6780Mn](https://i.ibb.co/6X1vfMn/imagem-2024-09-26-165709520.png))
+### Arquitetura-modelo de UML
+#### Esp 32 + “triangulação”
+Nosso grupo propõe utilizar um ESP32 conectado em uma rede de roteadores para que seja possível fazer a “triangulação” por meio do indicador de força de sinal recebido, assim localizando o ESP e consequentemente, o carrinho.
+#### ALGORITMO “A *”
+Também utilizaremos o algoritmo “A*” para otimizar o percurso de cada uma das entregas realizadas dentro da empresa.
+### Tecnologias e Algoritmos
+- ESP32 - Para localização do Carrinho-kit.
+- PHP - Para a construção do Site.
+- Python - Para a construção do algoritmo e da lógica interna.
+- C++ - Para controle do ESP
+#### Demonstração
+- Link do vídeo demonstrativo do site: [YouTube](https://www.youtube.com/watch?v=zbjiQSFvvno)
+- Link do vídeo demonstrativo dos algoritmos: [YouTube](https://www.youtube.com/watch?v=Wb3LYma8qg4)
+[![imagem-2024-09-26-170408966.png](https://i.postimg.cc/c4WHKmD7/imagem-2024-09-26-170408966.png)](https://postimg.cc/4n8ZqzRn)
 ## -Resultados-
 descreve de forma didática/técnica o que a sua aplicação está devolvendo, usando prints de comprovação
