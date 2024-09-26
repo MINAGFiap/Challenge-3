@@ -15,9 +15,10 @@
 ## -Introdução-
 ### Objetivos do projeto
 Nosso projeto tem como objetivo principal buscar uma solução para a má otimização do reabastecimento de peças nos carros-kit da fábrida da John Deere;
+
 [![imagem-2024-09-26-172419359.png](https://i.postimg.cc/8PTXY5BS/imagem-2024-09-26-172419359.png)](https://postimg.cc/qgZGhp5b)
 ## -Desenvolvimento-
-### Arquitetura-modelo de UML
+### Arquitetura
 #### Esp 32 + “triangulação”
 Nosso grupo propõe utilizar um ESP32 conectado em uma rede de roteadores para que seja possível fazer a “triangulação” por meio do indicador de força de sinal recebido, assim localizando o ESP e consequentemente, o carrinho.
 #### ALGORITMO “A *”
@@ -28,8 +29,12 @@ Também utilizaremos o algoritmo “A*” para otimizar o percurso de cada uma d
 - Python - Para a construção do algoritmo e da lógica interna.
 - C++ - Para controle do ESP
 #### Demonstração
-- Link do vídeo demonstrativo do site: [YouTube](https://www.youtube.com/watch?v=zbjiQSFvvno)
 - Link do vídeo demonstrativo dos algoritmos: [YouTube](https://www.youtube.com/watch?v=Wb3LYma8qg4)
+### Modelo de UML
+
 [![imagem-2024-09-26-170408966.png](https://i.postimg.cc/c4WHKmD7/imagem-2024-09-26-170408966.png)](https://postimg.cc/4n8ZqzRn)
 ## -Resultados-
-descreve de forma didática/técnica o que a sua aplicação está devolvendo, usando prints de comprovação
+- Site - Gestor: O site busca enviar os parâmetros dos carrinhos-kit e gerenciar as peças desejadas para o reabastecimento.
+- Site - Operador: O site disbonipiliza um mapa que mostra onde está o carrinho-kit a ser reabastecido, também conta com uma seção para analisar quais corridas estão ativas e quais estão finalizadas.
+#### Demonstração
+- Link do vídeo demonstrativo do site: [YouTube](https://www.youtube.com/watch?v=zbjiQSFvvno) 
