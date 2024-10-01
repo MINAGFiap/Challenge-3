@@ -3,7 +3,7 @@
 #include <vector>
 #include <ArduinoJson.h>
 
-String URL = "http://192.168.0.3/MINAG/ESP32_DATABASE/lerRSSI.php";
+String URL = "http://IPdoComputador/MINAG/ESP32_DATABASE/lerRSSI.php";
 
 // Nome e senha da rede que vai conectar para fazer o ping e enviar os dados
 const char* ssid = "redes";
