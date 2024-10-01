@@ -2,7 +2,7 @@
 #include <HTTPClient.h>
 #include <vector>
 
-String URL = "http://192.168.0.3/MINAG/ESP32_DATABASE/registrarDados.php";
+String URL = "http://IPdoComputador/MINAG/ESP32_DATABASE/registrarDados.php";
 
 // Nome e senha da rede que vai conectar para fazer o ping e enviar os dados
 const char* ssid = "";
