@@ -38,3 +38,18 @@ Também utilizaremos o algoritmo “A*” para otimizar o percurso de cada uma d
 - Site - Operador: O site disbonipiliza um mapa que mostra onde está o carrinho-kit a ser reabastecido, também conta com uma seção para analisar quais corridas estão ativas e quais estão finalizadas.
 #### Demonstração
 - Link do vídeo demonstrativo do site: [YouTube](https://www.youtube.com/watch?v=zbjiQSFvvno) 
+
+## -Teste de desempenho-
+### Teste 1 - Precisão de Localização.
+#### Definição da Ferramenta de Teste.
+Para esse teste, optamos por utilizar as ferramentas 'Arduino IDE' e 'Visual Studio Code'.
+#### Evidências de Testes.
+#### Discussão dos Resultados.
+#### Soluções Futuras.
+
+### Teste 2 - Tempo de Resposta.
+#### Definição da Ferramenta de Teste.
+Para esse teste, optamos por utilizar as ferramentas 'Arduino IDE' e 'Visual Studio Code'.
+#### Evidências de Testes.
+#### Discussão dos Resultados.
+#### Soluções Futuras.
