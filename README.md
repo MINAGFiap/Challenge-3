@@ -41,15 +41,28 @@ Também utilizaremos o algoritmo “A*” para otimizar o percurso de cada uma d
 
 ## -Teste de desempenho-
 ### Teste 1 - Precisão de Localização.
+
 #### Definição da Ferramenta de Teste.
 Para esse teste, optamos por utilizar as ferramentas 'Arduino IDE' e 'Visual Studio Code'.
-#### Evidências de Testes.
+
 #### Discussão dos Resultados.
+Os testes indicaram que a precisão da localização depende da estabilidade do sinal. Em pontos mais distantes (30 cm), a precisão foi maior, com um número menor de erros de posição. Já para pontos mais próximos (15 cm), a precisão diminuiu devido à variação do RSSI, resultando em posições incorretas em alguns casos. Isso demonstra que a proximidade dos pontos aumenta a sensibilidade do teste a variações de sinal.
+
 #### Soluções Futuras.
+Para aprimorar a precisão, o grupo sugere o uso de algoritmos que filtrem ruídos e oscilações do RSSI, além de realizar mais medições para formar uma base de dados robusta, aumentando a confiabilidade do sistema de localização.
 
 ### Teste 2 - Estabilidade de Sinal.
+
 #### Definição da Ferramenta de Teste.
 Para esse teste, optamos por utilizar as ferramentas 'Arduino IDE' e 'Visual Studio Code'.
-#### Evidências de Testes.
+
 #### Discussão dos Resultados.
+Foi observado que o sinal apresentou uma variação de -3 dBm nas primeiras coletas, e essa variação aumentou com o tempo e ao introduzir obstáculos, como colocar objetos sobre o ESP ou fechar a porta do cômodo. Essa instabilidade pode comprometer a precisão da localização, indicando que o ambiente e os obstáculos influenciam significativamente a confiabilidade do sinal.
+
 #### Soluções Futuras.
+Para melhorar a estabilidade, o grupo propõe realizar testes adicionais em diferentes ambientes para ajustar o algoritmo de leitura do RSSI. Outra ideia é aplicar técnicas de filtragem para reduzir o impacto das variações de sinal provocadas por obstáculos.
+
+
+
+#### Evidências de Testes (O pdf a seguir contém as evidências dos dois testes citados a cima.)
+[Evidêcias - PDF](https://drive.google.com/file/d/1xBGWf5DfIQI5K1n9-lcwrJ2KKj0MFCr3/view?usp=sharing)
