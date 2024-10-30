@@ -47,7 +47,7 @@ Para esse teste, optamos por utilizar as ferramentas 'Arduino IDE' e 'Visual Stu
 #### Discussão dos Resultados.
 #### Soluções Futuras.
 
-### Teste 2 - Tempo de Resposta.
+### Teste 2 - Estabilidade de Sinal.
 #### Definição da Ferramenta de Teste.
 Para esse teste, optamos por utilizar as ferramentas 'Arduino IDE' e 'Visual Studio Code'.
 #### Evidências de Testes.
